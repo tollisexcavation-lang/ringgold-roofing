@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tollisexcavation-lang.github.io/ringgold-roofing/sitemap.xml
