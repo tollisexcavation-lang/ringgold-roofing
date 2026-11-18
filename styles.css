@@ -53,8 +53,16 @@ header.site {
   gap: 1rem;
   padding: .65rem 0;
 }
-.brand { display: flex; align-items: center; text-decoration: none; color: inherit; }
-.brand img { width: 168px; height: auto; display: block; }
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border-radius: 12px;
+  padding: .35rem .6rem;
+}
+.brand img { width: 200px; height: auto; display: block; }
 nav.links { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
 nav.links a {
   color: var(--text);
@@ -285,7 +293,7 @@ address { font-style: normal; }
 @media (max-width: 800px) {
   .split, footer .cols, .inspect-layout { grid-template-columns: 1fr; }
   nav.links { display: none; }
-  .brand img { width: 140px; }
+  .brand img { width: 160px; }
   .hero { padding-top: 2.2rem; }
   .phone-bar { display: flex; }
 }
